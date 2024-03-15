@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --color-primary: #b73e3e;
+  --color-secondary: #dd5353;
+  --color-neutral-100: #fff8ed;
+  --color-neutral-900: #383838;
+  --bg-color: var(--color-neutral-100);
+  --light-text-color: var(--color-neutral-100);
+  --dark-text-color: var(--color-neutral-900);
+  --highlighted-text-color: var(--color-primary);
+
+  --fs-xl: 4.5rem;
+  --fs-large: 3rem;
+  --fs-med: 2rem;
+  --fs-regular: 1rem;
+
+  --fs-display: var(--fs-xl);
+  --fs-heading: var(--fs-large);
+  --fs-subheading: var(--fs-med);
+  --fs-text: var(--fs-regular);
+
+  --fw-heading: 700;
+  --fw-subheading: 700;
+  --fw-text: 400;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-text-color);
+  font-family: "Playfair Display", serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* Nav */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  max-width: 1120px;
+  padding-inline: 0.5rem;
+}
+
+img.logo-text {
+  width: 200px;
+  object-fit: cover;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.active {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.cta-btns {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cta-btn {
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 0.5em 1.5em;
+  font-weight: var(--fw-heading);
+}
+
+.login-btn {
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.signup-btn {
+  color: white;
+  background-color: var(--color-primary);
+}

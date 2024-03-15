@@ -1,0 +1,71 @@
+body {
+  font-family: "Playfair-display",sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+  
+h1, h2 {
+  margin: 10px 0;
+}
+  
+main {
+  padding: 20px;
+}
+  
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff8ed;
+  opacity: 0.8;
+  font-family: 'Playfair display', serif;
+}
+.Banner_items{
+  height: 200px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Banner_items a{
+  height: 90%
+}
+.Banner_items img{
+  height: 80%;
+  object-fit: contain;
+}
+
+#im{
+  margin:0 auto;
+}
+#bg1{
+  background: url(OFFICIAL_PROJECT\AWARENESS\banner\BG.jpeg)"
+}
+ul {
+  list-style: none;
+  padding: 0;
+}  
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: underline;
+}
+  
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+  

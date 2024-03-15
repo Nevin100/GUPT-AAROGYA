@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--dark-text-color);
+  font-family: "Playfair Display", serif;
+}
+/* Variables */
+:root {
+  --color-primary: #b73e3e;
+  --color-secondary: #dd5353;
+  --color-neutral-100: #fff8ed;
+  --color-neutral-900: #383838;
+  --bg-color: var(--color-neutral-100);
+  --light-text-color: var(--color-neutral-100);
+  --dark-text-color: var(--color-neutral-900);
+  --highlighted-text-color: var(--color-primary);
+
+  --fs-xl: 4.5rem;
+  --fs-large: 3rem;
+  --fs-med: 2rem;
+  --fs-regular: 1rem;
+
+  --fs-display: var(--fs-xl);
+  --fs-heading: var(--fs-large);
+  --fs-subheading: var(--fs-med);
+  --fs-text: var(--fs-regular);
+
+  --fw-heading: 700;
+  --fw-subheading: 700;
+  --fw-text: 400;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+/* Landing Page */
+
+html {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+body {
+  min-width: fit-content;
+  width: 100%;
+  height: 100%;
+  color: var(--dark-text-color);
+  background-color: var(--bg-color);
+}
+
+p {
+  line-height: 150%;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.padded-container {
+  /* max-width: 1056px; */
+  padding-inline: 2rem;
+}
+
+.section-container .text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-heading {
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-heading);
+  width: 20ch;
+}
+
+.section-container .section-desc {
+  font-size: var(--fs-text);
+  font-weight: var(--fw-text);
+  width: 50ch;
+}
+
+.section-container .section-summary {
+  font-size: var(--fs-med);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.highlighted-text {
+  color: var(--color-primary);
+}
+
+.underlined-text {
+  text-decoration: var(--color-primary) underline 3px;
+}
+
+/* Header and Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.logo-text {
+  width: 200px;
+  object-fit: cover;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.active {
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.cta-btns {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cta-btn {
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 0.5em 1.5em;
+  font-weight: var(--fw-heading);
+}
+
+.login-btn {
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.signup-btn {
+  color: white;
+  background-color: var(--color-primary);
+}
+
+/* Main Section */
+
+/* Hero Section */
+
+#hero-section {
+  margin-top: 3rem;
+}
+
+#display-heading {
+  width: 10ch;
+  font-size: var(--fs-display);
+  font-weight: var(--fw-heading);
+  line-height: 120%;
+}
+
+.motto {
+  font-size: var(--fs-med);
+  font-weight: var(--fw-text);
+}
+
+.illustration {
+  position: relative;
+}
+
+.illustration .logo-text {
+  z-index: 2;
+  width: 280px;
+  position: absolute;
+  left: 51%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-bg {
+  animation: 25s linear rotate infinite;
+  width: 400px;
+  object-fit: contain;
+}
+
+/* Key Features Section */
+#key-features-section {
+  background-color: var(--color-primary);
+  padding-block: 3rem;
+  margin-bottom: 5rem;
+}
+
+#key-features-section .section-heading {
+  color: var(--light-text-color);
+}
+
+.cards-container {
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card {
+  position: relative;
+  width: 256px;
+  height: 350px;
+  background-color: var(--color-neutral-100);
+  padding: 1.25rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.card-heading {
+  font-size: var(--fs-med);
+  text-decoration: underline var(--color-primary) 2px;
+  margin-bottom: 1.5rem;
+}
+
+.card-icon {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.5rem;
+  height: 41px;
+}
+
+/* Appointments */
+#appointments-section img {
+  width: 360px;
+  object-fit: contain;
+}
+
+.cta-text {
+  text-align: center;
+  font-size: 4rem;
+  margin-block: 5rem;
+}
+
+.final-cta {
+  gap: 9rem;
+  justify-content: center;
+}
+
+.final-cta button {
+  font-size: 3rem;
+}
+
+/* Animations */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,132 @@
+
+h1{
+    padding: 0.5rem;
+}
+
+hr{
+
+    width: 700px ;
+    background-color: black;
+}
+#h213{
+
+
+    font-size: larger;
+}
+h2{
+
+  font-size: 20rem;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+#sp1{
+
+    color:rgb(237, 219, 192);
+    
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+#pay{
+    
+    background-color:rgb(219, 200, 172);
+   
+    border-radius: 22px;
+    transition-duration: 1.2s;
+    color: #B73E3E;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    
+}
+
+#pay:hover{
+    background-color: rgb(252, 253, 251);
+   
+    border-radius: 32px;
+    transform: scale(1.1);
+}
+body{
+
+    background-color: #fff8ed;
+
+}
+
+
+a{
+
+    text-decoration: none;
+    
+    
+   
+    
+    
+}
+
+a:hover{
+
+    text-decoration: none;
+    transform: scale(2.1);
+    
+    
+   
+    
+    
+}
+h3{
+    text-align: center;
+    padding: 1rem;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 900;
+    
+}
+
+h2{ text-align: center;
+    color: white;
+    padding: 0.1rem;
+
+    
+        
+        color: white;
+        font-size:1.5rem;
+     
+    
+}
+
+input{
+    margin-left: -1rem;
+ width: ;
+    height: 21px;
+    border-radius: 24px;
+    width: 80%;
+    border: 5px solid rgb(221, 83, 83);
+}
+
+#inner{
+    margin: 0 auto;
+
+    height: 36rem;
+    width: 37.5rem;
+    border-radius: 32px;
+    margin-top: 40px;
+    background-color: #eddbc07c;
+    border: 5px solid rgb(237, 219, 192);
+
+}
+
+#outer{
+  margin: 0 auto;
+    height: 60rem;
+    width: 62.5rem;
+    border-radius: 32px;
+    background-color: #B73E3E;
+    border: 5px solid rgb(219, 200, 172);
+   
+
+}

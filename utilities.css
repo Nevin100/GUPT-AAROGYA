@@ -1,0 +1,11 @@
+.container-lg {
+  /* background-color: rgba(255, 0, 0, 0.135); */
+  margin-inline: auto;
+  max-width: 1120px;
+  padding-inline: 0.5rem;
+}
+
+.container-full-width {
+  margin: 0;
+  width: 100vw;
+}
