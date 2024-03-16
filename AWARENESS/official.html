@@ -36,6 +36,7 @@
       <a href="#">
         <li id="courses" class="nav-link inactive">Courses</li>
       </a>
+      <div id="google_translate_element"></div>
     </ul>
   </nav>    
   </header>
@@ -94,6 +95,22 @@
     </div>
 <hr>
 </footer>
-
+ <script type="text/javascript">
+      
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+    <script
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      type="text/javascript"
+    ></script>
+    <script src="script.js"></script>
 </body>
 </html>
