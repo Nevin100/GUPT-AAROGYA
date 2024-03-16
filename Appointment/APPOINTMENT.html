@@ -8,18 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">   
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nav.css">
     <style>
         body {
             font-family: 'inter', sans-serif;
             margin: 0;
             padding: 0;
-            background-color:#fff8ed;
+            background-color:#dd535336;
+        }
+        header{
+            background-color: #fff8ed;
         }
         .container {
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
-            background-color: #fff8ed;
+            background-color: #fff8ED;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -38,42 +42,69 @@
         }
         input[type="text"], input[type="email"], input[type="tel"], input[type="date"] {
             width: 100%;
-            padding: 10px;
+            padding: 0.5em 1em;
             margin-bottom: 20px;
-            border: 1.5px solid #b73e3e;
+            border: 1.0px solid #b73e3e73;
             border-radius: 5px;
             box-sizing: border-box;
+            background-color: #fff8ed;
         }
         input[type="submit"] {
+            padding: 1rem;
             background-color: #b73e3e;
+            transition: 0.15s;
             color: #fff;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
         }
         input[type="submit"]:hover {
-            background: color #dd5353;
+            background-color: #dd5353;
         }
     </style>
 </head>
+<header class="container-lg">
+    <!-- Nav bar -->
+    <nav class="navbar" id="primary-navbar">
+      <img src="main_logo1.png" alt="Logo" class="logo-text" />
+      <ul class="nav-links">
+        <a href="#">
+          <li id="community" class="nav-link inactive">Home</li>
+        </a>
+        <a href="#">
+          <li id="community" class="nav-link inactive">Community</li>
+        </a>
+        <a href="#">
+          <li id="blog" class="nav-link inactive">Appointment</li>
+        </a>
+        <a href="#">
+          <li id="courses" class="nav-link inactive">Courses</li>
+        </a>
+        <a href="#">
+          <li id="awareness" class="nav-link inactive">Awareness</li>
+        </a>
+    </ul>
+    </nav>
+</header>
 <body>
     <div class="container">
         <h1>Schedule an Appointment</h1>
         <form action="#">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="name">User ID</label>
+            <input type="text" id="name" name="name" placeholder="User ID">
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="email">Your Illness</label>
+            <input type="email" id="email" name="email" placeholder="Your Illness">
 
-            <label for="phone">Your Phone:</label>
-            <input type="tel" id="phone" name="phone" required>
+            <label for="phone">Phone No.</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone No.">
 
-            <label for="date">Preferred Date:</label>
-            <input type="date" id="date" name="date" required>
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" placeholder="Preferred Date">
 
-            <input type="submit" value="Schedule Appointment">
+            <center><input type="submit" value="Schedule Appointment"></center>
         </form>
     </div>
 </body>
