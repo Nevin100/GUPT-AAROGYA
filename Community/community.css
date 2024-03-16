@@ -28,7 +28,7 @@ div {
     background-color: #B73E3E;
     border: 5px solid rgb(255, 255, 255);
     width: 1005px;
-    height: max-content;
+    height: 100rem;
     margin: 0 auto;
     border-radius: 32px;
     
@@ -108,9 +108,14 @@ img {
     display: cover;
 }
 
+#hr123{
+    width: 80%;
+    margin-top: 10rem;
+}
+
 #inner1 {
 
-    height: 90rem;
+    height: 80rem;
     width: 600px;
     margin-left: 12.5rem;
     border: 5px solid white;
@@ -248,7 +253,7 @@ P {
     padding: 10px 10px;
     
     color: azure;
-    background-color:  #B73E3E;
+    background-color:  #ffffff;
     border: none;
     cursor: pointer;
     border: #2ec9b7;
@@ -259,7 +264,7 @@ P {
   
   button:hover {
     background-color: rgb(255, 251, 240);
-    color:  #B73E3E;
+    color:  #fffbfb;
   
     border-radius: 32px;
     transform: scale(1.4)
@@ -275,6 +280,7 @@ P {
   
   .container{
     border: 0px;
+    margin-left: 1.5rem;
 
     background-color:none;
   }
@@ -288,6 +294,10 @@ P {
     margin: 2.5rem;
     padding: 8px;
    border-radius: 32px;
+   background-color: white;
+    color:#930202;
+    transition-duration: 0.5s;
+    border: 5px solid #930202;
 
 
 
@@ -298,8 +308,8 @@ P {
 
     height: 3rem;
     width: 25rem;
-    background-color: #B73E3E;
-    color: white;
+    background-color: white;
+    color:#930202;
     border-radius: 10px;
     margin: 2.5rem;
     padding: 8px;
