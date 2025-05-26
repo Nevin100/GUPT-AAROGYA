@@ -12,7 +12,7 @@ Sexual health is often stigmatized and overlooked. Gupt Aarogya was created to c
 - ✅ A fully responsive, user-centric frontend interface
 
 ## 🌐 Live Demo
-
+https://upt-aarogya.vercel.app/
 
 ## 🛠️ Tech Stack
 
@@ -28,8 +28,12 @@ Built with ❤️
 
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/9d362191-d5dc-42b7-b648-8b385bf4349c)
+![image](https://github.com/user-attachments/assets/7c9081bd-06b7-4d74-a778-9c307797d7f5)
+![image](https://github.com/user-attachments/assets/bb44554c-02cd-4415-b06c-4323cd32e420)
+![image](https://github.com/user-attachments/assets/04f4bc85-60a0-46e9-b4d2-a48ba6969c83)
 
-_Add screenshots or a short demo GIF here to visually represent your UI._
+
 
 ## 🌍 Languages Supported
 
@@ -47,7 +51,7 @@ _Add screenshots or a short demo GIF here to visually represent your UI._
 | Courses by Doctors    | ✅ Complete |
 
 ## 💡 Future Scope
-
+- Proper Authentication with Oauth by Google or Firebase with JWT.
 - Backend integration for authentication and appointment management  
 - Chatbot or anonymous Q&A  
 - Admin panel for doctors and course management
